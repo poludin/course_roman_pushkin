@@ -81,6 +81,7 @@ if age >= 18 && answer == 'Y'
 
     if money == 0
       puts 'Конец игре'
+      puts "У Вас осталось #{money} денег"
       exit
     end
 
@@ -88,6 +89,7 @@ if age >= 18 && answer == 'Y'
 
     if stop == 'Stop'
       puts 'Конец игре'
+      puts "У Вас осталось #{money} денег"
       exit
     end
   end
