@@ -5,6 +5,6 @@ def print_details details
   puts details[:adress] if details[:adress]
 end
 
-hh = { :name => 'Mike', :age => 30, :adress => '123 West Street'}
+hh = { :name => 'Mike', :age => 30, :adress => '123 West Street' }
 
 print_details hh
