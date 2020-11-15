@@ -27,8 +27,8 @@ loop do
   print 'Enter age: '
   @age = gets.strip.to_i
 
-  options = { :name => @name, :age => @age }
+  #options = { :name => @name, :age => @age }
 
-  add_persen options
+  add_persen :name => @name, :age => @age
 
 end
